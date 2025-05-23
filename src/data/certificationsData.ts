@@ -53,39 +53,14 @@ export const companies: Company[] = [
         issuedDate: 'January 2023',
         credentialId: 'MS-345678',
         credentialUrl: 'https://example.com/credential',
-        orgLogo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoft/microsoft-original.svg',
-      },
-    ],
-  },
-  {
-    id: 3,
-    name: 'AWS',
-    logo: 'src/aws.svg',
-    certifications: [
-      {
-        id: 4,
-        name: 'AWS Certified Solutions Architect – Associate',
-        organization: 'Amazon Web Services',
-        issuedDate: 'November 2022',
-        credentialId: 'AWS-901234',
-        credentialUrl: 'https://example.com/credential',
-        orgLogo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg',
-      },
-      {
-        id: 5,
-        name: 'AWS Certified Developer – Associate',
-        organization: 'Amazon Web Services',
-        issuedDate: 'August 2022',
-        credentialId: 'AWS-567890',
-        credentialUrl: 'https://example.com/credential',
-        orgLogo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg',
+        orgLogo: 'src/Microsoft.svg',
       },
     ],
   },
   {
     id: 4,
-    name: 'MongoDB',
-    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
+    name: 'IBM',
+    logo: 'src/ibm.svg',
     certifications: [
       {
         id: 6,
@@ -110,8 +85,9 @@ export const companies: Company[] = [
         issuedDate: 'July 2022',
         credentialId: 'META-345678',
         credentialUrl: 'https://example.com/credential',
-        orgLogo: 'https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/meta.svg',
+        orgLogo: 'src/Meta.svg',
       },
+      
     ],
   },
 ];
