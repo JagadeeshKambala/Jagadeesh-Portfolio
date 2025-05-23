@@ -58,28 +58,12 @@ export const companies: Company[] = [
     ],
   },
   {
-    id: 4,
-    name: 'IBM',
-    logo: 'src/ibm.svg',
-    certifications: [
-      {
-        id: 6,
-        name: 'MongoDB Certified Developer Associate',
-        organization: 'MongoDB',
-        issuedDate: 'May 2022',
-        credentialId: 'MDB-123456',
-        credentialUrl: 'https://example.com/credential',
-        orgLogo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
-      },
-    ],
-  },
-  {
-    id: 6,
+    id: 3,
     name: 'Meta',
     logo: 'src/Meta.svg',
     certifications: [
       {
-        id: 8,
+        id: 4,
         name: 'Meta Front-End Developer Professional Certificate',
         organization: 'Meta',
         issuedDate: 'July 2022',
@@ -88,6 +72,22 @@ export const companies: Company[] = [
         orgLogo: 'src/Meta.svg',
       },
       
+    ],
+  },
+  {
+    id: 4,
+    name: 'IBM',
+    logo: 'src/Ibm-Logo.png',
+    certifications: [
+      {
+        id: 5,
+        name: 'IBM Data Science Professional Certificate',
+        organization: 'IBM',
+        issuedDate: 'August 2022',
+        credentialId: 'IBM-123456',
+        credentialUrl: 'https://example.com/credential',
+        orgLogo: 'src/Ibm-Logo.png',
+      },
     ],
   },
 ];

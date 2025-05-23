@@ -76,11 +76,6 @@ export const skills: Skill[] = [
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg',
     category: 'frontend',
   },
-{
-    name: 'AI/ML',
-    icon: 'src/aiml.svg',
-    category: 'tools',
-  },
   {
     name: 'Jest',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
