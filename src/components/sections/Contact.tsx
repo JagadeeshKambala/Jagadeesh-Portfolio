@@ -54,20 +54,14 @@ const Contact: React.FC = () => {
     {
       icon: <Mail className="w-5 h-5 text-primary-600 dark:text-primary-400" />,
       label: 'Email',
-      value: 'john.doe@example.com',
-      link: 'mailto:john.doe@example.com',
-    },
-    {
-      icon: <Phone className="w-5 h-5 text-primary-600 dark:text-primary-400" />,
-      label: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      value: 'kambala.jagadeesh19@gmail.com',
+      link: 'mailto:kambala.jagadeesh19@gmail.com',
     },
     {
       icon: <MapPin className="w-5 h-5 text-primary-600 dark:text-primary-400" />,
       label: 'Location',
-      value: 'San Francisco, CA',
-      link: 'https://maps.google.com/?q=San+Francisco,+CA',
+      value: 'Vijayawada, India',
+      link: 'https://maps.app.goo.gl/cuK1YSRHQLJpE9st7',
     },
   ];
 

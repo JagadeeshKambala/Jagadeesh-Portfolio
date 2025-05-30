@@ -75,6 +75,22 @@ export const companies: Company[] = [
     ],
   },
   {
+    id: 5,
+    name: 'Amazon',
+    logo: 'src/aws-svg-logo.png',
+    certifications: [
+      {
+        id: 6,
+        name: 'AWS Certified Solutions Architect – Associate',
+        organization: 'Amazon',
+        issuedDate: 'September 2022',
+        credentialId: 'AWS-789012',
+        credentialUrl: 'https://example.com/credential',
+        orgLogo: 'src/aws-svg-logo.png',
+      },
+    ],
+  },
+  {
     id: 4,
     name: 'IBM',
     logo: 'src/Ibm-Logo.png',

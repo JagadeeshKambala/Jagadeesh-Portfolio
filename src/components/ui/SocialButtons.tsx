@@ -7,21 +7,15 @@ const SocialButtons: React.FC = () => {
 
   const socialLinks = [
     {
-      name: 'GitHub',
-      icon: <GitHub className="w-5 h-5" />,
-      url: 'https://github.com',
-      ariaLabel: 'GitHub Profile',
-    },
-    {
       name: 'LinkedIn',
       icon: <Linkedin className="w-5 h-5" />,
-      url: 'https://linkedin.com',
+      url: 'https://www.linkedin.com/in/jagadeesh-kambala-34a93732b/',
       ariaLabel: 'LinkedIn Profile',
     },
     {
       name: 'Email',
       icon: <Mail className="w-5 h-5" />,
-      url: 'mailto:john.doe@example.com',
+      url: 'mailto:kambala.jagadeesh19@gmail.com',
       ariaLabel: 'Send Email',
     },
   ];

@@ -53,8 +53,8 @@ const Certifications: React.FC = () => {
                 onClick={() => handleCompanyClick(company.id)}
                 className={`w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full p-4 transition-all duration-300 ${
                   selectedCompany === company.id
-                    ? 'bg-primary-100 dark:bg-primary-90/50 shadow-lg'
-                    : 'bg-white dark:bg-gray-800 shadow-md hover:shadow-lg'
+                    ? 'bg-primary-1900 dark:bg-primary-90/50 shadow-lg'
+                    : 'bg-black dark:bg-gray-800 shadow-md hover:shadow-lg'
                 }`}
                 aria-label={`View ${company.name} certifications`}
               >
