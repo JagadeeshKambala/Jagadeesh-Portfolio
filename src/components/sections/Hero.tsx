@@ -70,7 +70,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-lg md:text-xl text-gray-600 dark:text-gray-200 max-w-2xl mx-auto mb-6"
         >
-          I'm a passionate Frontend Developer with a focus on creating innovative and user-friendly web experiences. I specialize in React, TypeScript, Tailwind, and always eager to learn new technologies.
+          I'm a passionate Frontend Developer specializing in React, TypeScript, and Tailwind CSS, dedicated to building innovative, user-friendly web experiences. With a strong grasp of AI's transformative potential, I integrate intelligent workflows into my development process to deliver faster, smarter, and more impactful solutions.
         </motion.p>
 
         <motion.p
@@ -79,7 +79,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="text-sm text-gray-500 dark:text-gray-200 max-w-2xl mx-auto mb-12"
         >
-          With a comprehensive understanding of AI's transformative power, I apply it universally across all tasks. This allows me to craft workflows that are not just faster, but also more intelligent, precise, and impactful, showcasing true innovation.
+          
         </motion.p>
 
         <motion.div
