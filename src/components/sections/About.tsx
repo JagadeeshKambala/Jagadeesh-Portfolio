@@ -36,15 +36,12 @@ const About: React.FC = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true, margin: "-100px" }}
-          className="max-w-4xl mx-auto"
+          className="max-w-5xl mx-auto"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">
-            About Me
-          </h2>
-
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8 items-center">
+            {/* Image and Social Links (Left Side) */}
             <div className="md:col-span-2">
-              <div className="relative w-[5cm] h-[5cm] mx-auto">
+              <div className="relative w-[5cm] h-[5cm] mx-auto md:mx-0">
                 <div className="w-full h-full absolute -top-3 -left-3 border-2 border-primary-500 rounded-full"></div>
                 <img
                   src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -52,14 +49,14 @@ const About: React.FC = () => {
                   className="w-full h-full object-cover rounded-full relative z-10 shadow-lg"
                 />
               </div>
-              <div className="mt-6 text-center">
+              <div className="mt-6 text-center md:text-left">
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
                   John Doe
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
                   Full Stack Developer
                 </p>
-                <div className="flex justify-center space-x-4">
+                <div className="flex justify-center md:justify-start space-x-4">
                   {socialLinks.map((link, index) => (
                     <a
                       key={index}
@@ -75,19 +72,17 @@ const About: React.FC = () => {
                 </div>
               </div>
             </div>
-            
+
+            {/* About Heading and Text (Right Side) */}
             <div className="md:col-span-3">
-              <p className="text-lg text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
-                Hello! I'm Jagadeesh, a Frontend Developer, UI/UX Designer and Python Programmer. I have a strong foundation in JavaScript, React, TypeScript, Python with DSA with a passion for building responsive and user-centered web applications.
-              </p>
-              
-              <p className="text-lg text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
-                My journey in web development began during my time at university, where I discovered my love for turning ideas into functional and beautiful digital experiences. Since then, I've been constantly learning and growing, staying up-to-date with the latest technologies and best practices.
-              </p>
-              
-              <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                When I'm not coding, you can find me contributing to open-source projects, attending tech meetups, and exploring the outdoors. I approach each project with dedication, attention to detail, and a commitment to writing clean, efficient, and maintainable code.
-              </p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 dark:text-white">
+                About Me
+              </h2>
+             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+  I'm Jagadeesh, a Frontend Developer, UI/UX Designer, and Python Programmer with a strong foundation in JavaScript, React, TypeScript, and Data Structures & Algorithms. I enjoy building responsive, user-focused web applications and continually keep up with modern development practices.<br></br>
+
+  In addition to frontend development, I have a keen eye for design and usability, which helps me bridge the gap between aesthetics and functionality. I'm passionate about writing clean, maintainable code and collaborating with teams to bring innovative ideas to life. Whether it's designing intuitive user interfaces or optimizing performance, I approach each project with curiosity, precision, and a growth mindset.
+</p>
             </div>
           </div>
         </motion.div>
