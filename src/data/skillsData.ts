@@ -57,7 +57,7 @@ export const skills: Skill[] = [
  
   {
     name: 'AWS',
-    icon: 'src/aws.svg',
+    icon: 'src/aws-svg-logo.png',
     category: 'tools',
   },
    {

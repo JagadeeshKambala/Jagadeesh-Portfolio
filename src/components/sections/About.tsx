@@ -8,19 +8,14 @@ const About: React.FC = () => {
 
   const socialLinks = [
     {
-      icon: <Github className="w-5 h-5" />,
-      label: 'GitHub',
-      url: 'https://github.com',
-    },
-    {
       icon: <Linkedin className="w-5 h-5" />,
       label: 'LinkedIn',
-      url: 'https://linkedin.com',
+      url: 'https://www.linkedin.com/in/jagadeesh-kambala-34a93732b/',
     },
     {
       icon: <Mail className="w-5 h-5" />,
       label: 'Email',
-      url: 'mailto:john.doe@example.com',
+      url: 'mailto:kambala.jagadeesh19@gmail.com',
     },
   ];
 
@@ -80,7 +75,7 @@ const About: React.FC = () => {
               </h2>
              <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
   I'm Jagadeesh, a Frontend Developer, UI/UX Designer, and Python Programmer with a strong foundation in JavaScript, React, TypeScript, and Data Structures & Algorithms. I enjoy building responsive, user-focused web applications and continually keep up with modern development practices.<br></br>
-
+<br></br>
   In addition to frontend development, I have a keen eye for design and usability, which helps me bridge the gap between aesthetics and functionality. I'm passionate about writing clean, maintainable code and collaborating with teams to bring innovative ideas to life. Whether it's designing intuitive user interfaces or optimizing performance, I approach each project with curiosity, precision, and a growth mindset.
 </p>
             </div>
