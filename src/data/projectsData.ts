@@ -1,3 +1,6 @@
+import { tr } from "framer-motion/client";
+import React from "react";
+
 export interface Project {
   id: number;
   title: string;
@@ -13,7 +16,7 @@ export const projects: Project[] = [
   {
     id: 1,
     title: 'E-Commerce Platform',
-    description: 'A full-featured e-commerce platform with product catalog, shopping cart, user authentication, and payment processing.',
+    description: 'A modern, Mobile landing page inspired by Apple’s clean and minimal design aesthetic. Built to elegantly showcase the product.',
     technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe'],
     image: 'https://images.pexels.com/photos/6956903/pexels-photo-6956903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     featured: true,
@@ -22,13 +25,13 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates, task assignment, and progress tracking.',
-    technologies: ['React', 'Firebase', 'Tailwind CSS', 'TypeScript'],
-    image: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    title: 'Modern Product Landing Page',
+    description: 'A modern, Desktop landing page inspired by Apple’s clean and minimal design aesthetic. Built to elegantly showcase a Mobile product',
+    technologies: ['React.js', 'Tailwind CSS', 'TypeScript'],
+    image: 'src/MobileImage.jpg',
     featured: true,
     demoUrl: 'https://example.com',
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/JagadeeshKambala/Modern-Product-Landing-Page.git',
   },
   {
     id: 3,
@@ -42,13 +45,13 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: 'Recipe Finder',
-    description: 'An app to find recipes based on ingredients you have at home, with filtering options for dietary preferences.',
-    technologies: ['Vue.js', 'Vuex', 'Spoonacular API', 'SCSS'],
-    image: 'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    title: 'Modern Product Landing Page',
+    description: 'A modern, Desktop landing page inspired by Apple’s clean and minimal design aesthetic. Built to elegantly showcase a Mobile product',
+    technologies: ['React.js', 'Tailwind CSS', 'TypeScript'],
+    image: 'src/MobileImage.jpg',
     featured: false,
     demoUrl: 'https://example.com',
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/JagadeeshKambala/Modern-Product-Landing-Page.git',
   },
   {
     id: 5,
